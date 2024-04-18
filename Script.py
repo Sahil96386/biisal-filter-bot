@@ -1,10 +1,12 @@
 class script(object):
-    START_TXT = """<b>ʜᴇʟᴏ {}
+    START_TXT = """<b>ʜᴇʟʟᴏ {}
     
-ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ
-ɪ ᴀᴍ ᴘᴍ sʜᴏʀᴛɴᴇʀ-ʟɪɴᴋ ʙᴏᴛ
 
-ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Biisal">Bɪɪsᴀʟ</a></b> 😏</b>"""
+ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ
+
+I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ
+
+ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Sahilrjs">ꜱᴀʜɪʟ ᴠ</a></b> 😎</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
@@ -14,11 +16,11 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 🔻 ᴛᴏ ᴇɴᴀʙʟᴇ ғᴏʀᴄᴇ sᴜʙ (ғᴏʀᴄᴇ sᴜʙsᴄʀɪʙᴇ) ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ
 • ᴍᴀᴋᴇ ʙᴏᴛ ᴀᴅᴍɪɴ ɪɴ ʙᴏᴛʜ ɢʀᴏᴜᴘ ᴀɴᴅ ᴄᴀʜɴɴᴇʟ
 • sᴇɴᴅ /forcesub -100CHANNEL ID ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ
-• EX : /forcesub -1001734958816
+• EX : /forcesub -1002136346146
 
 🔻 ᴛᴏ sᴛᴏᴘ ғᴏʀᴄᴇ sᴜʙ
 • sᴇɴᴅ /noforcesub -100CHANNEL ID ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ
-• EX : /noforcesub -1001734958816
+• EX : /noforcesub -1002136346146
 
 🔻 ᴛᴏ ᴄʜᴇᴄᴋ ᴄᴏɴɴᴇᴄᴛᴇᴅ ғᴏʀᴄᴇsᴜʙ ᴄʜᴀɴɴᴇʟ
 • sᴇɴᴅ /checksub ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ
@@ -27,7 +29,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>
  🤖 ᴍʏ ɴᴀᴍᴇ : {}
- 👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/Biisal'>Bɪɪsᴀʟ</a>
+ 👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/Sahilrjs'>ꜱᴀʜɪʟ ᴠ</a>
  📚 ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
  📝 ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a>
  ♻️ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>
@@ -36,7 +38,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     SOURCE_TXT = """
 <b>Tʜɪꜱ Bᴏᴛ Iꜱ NOT Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.</b>
-<b>Cᴏɴᴛᴀᴄᴛ Aᴅᴍɪɴ : @Biisal<b/>
+<b>Cᴏɴᴛᴀᴄᴛ Aᴅᴍɪɴ :  <a href="https://t.me/Sahilrjs">ꜱᴀʜɪʟ ᴠ</a><b/>
 """
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
@@ -221,7 +223,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b><a href="https://t.me/DirectFilee_Bot">{file_name}
+    CAPTION = """<b>{file_name}
 
 sɪᴢᴇ : {file_size}
 Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Fɪʟᴇ</a></b>"""

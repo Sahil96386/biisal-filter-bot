@@ -461,7 +461,7 @@ async def start(client, message):
                         ],
                      
                      [
-                        InlineKeyboardButton('🖥 ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ / ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ 👻', url=biisal_stream, url=biisal_download),                  
+                        InlineKeyboardButton('🖥 ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ / ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ 👻', url=biisal_stream),                  
                      ]
 
                     ]
@@ -535,7 +535,7 @@ async def start(client, message):
                         ],
                      
                      [
-                        InlineKeyboardButton('🖥 ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ / ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ 👻', url=biisal_stream, url=biisal_download),                  
+                        InlineKeyboardButton('🖥 ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ / ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ 👻', url=biisal_stream),                  
                      ]
 
                     ]

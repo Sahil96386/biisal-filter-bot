@@ -68,7 +68,7 @@ auth_channel = environ.get('AUTH_CHANNEL')
 auth_grp = environ.get('AUTH_GROUP', '')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002081157785')
 reqst_channel = environ.get('REQST_CHANNEL_ID', '')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
@@ -82,9 +82,9 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omnifly.in.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '5bb6e402dd86fb8774690a5f4a65d2a2c0c04877') #use my api so i can make some money 🤣..just kidding guys..mai already aamir hoon🥱 
+SHORTLINK_API = environ.get('SHORTLINK_API', '19741d2dead8c1f15cf2654e170780287e6613f6') #use my api so i can make some money 🤣..just kidding guys..mai already aamir hoon🥱 
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'omnifly.in.net')
-SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '5bb6e402dd86fb8774690a5f4a65d2a2c0c04877')
+SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '19741d2dead8c1f15cf2654e170780287e6613f6')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '').split()] #Add a channel ID here. When you send any file to this channel, the bot will delete the file details from the MongoDB 
 MAX_B_TN = environ.get("MAX_B_TN", "20")
@@ -94,14 +94,14 @@ GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Indmoviegp')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Indmovieupdates')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Movie_Url_link_downloader/17')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-MSG_ALRT = environ.get('MSG_ALRT', 'Kʏᴀ ʀᴇ Bʜɪᴋᴍᴀɴɢᴀ 😑,Kʏᴀ ᴅᴇᴋʜ ʀᴀʜᴀ ʜᴀɪ ?')
+MSG_ALRT = environ.get('MSG_ALRT', 'Kʏᴀ ʀᴇ Bʜɪᴋᴍᴀɴɢᴇ 😅,Kʏᴀ ᴅᴇᴋʜ ʀᴀʜᴀ ʜᴀɪ ?')
 
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
 VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', ''))
 NEW_USER_LOG = int(environ.get('NEW_USER_LOG', ''))
 BIN_CHNL = int(environ.get('BIN_CHNL', ''))
 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'bisal_files')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Ind_supportgp')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)

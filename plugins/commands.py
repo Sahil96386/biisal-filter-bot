@@ -459,9 +459,12 @@ async def start(client, message):
                         [
                         InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🚩', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
                         ],
-                     
                      [
-                        InlineKeyboardButton('🖥 ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ / ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ 👻', url=biisal_stream),                  
+                        InlineKeyboardButton("🔻ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ ⚡", url=biisal_download),                   
+                     ],
+                   
+                     [
+                        InlineKeyboardButton('🔻ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 👻', url=biisal_stream),                  
                      ]
 
                     ]
@@ -533,9 +536,12 @@ async def start(client, message):
                         [
                         InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🚩', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
                         ],
-                     
                      [
-                        InlineKeyboardButton('🖥 ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ / ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ 👻', url=biisal_stream),                  
+                        InlineKeyboardButton("🔻ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ ⚡", url=biisal_download),                   
+                     ],
+                   
+                     [
+                        InlineKeyboardButton('🔻ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 👻', url=biisal_stream),                  
                      ]
 
                     ]

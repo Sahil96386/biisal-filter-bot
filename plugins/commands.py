@@ -26,7 +26,7 @@ import aiohttp
 BATCH_FILES = {}
 
 async def ai_generate_response(user_text):
-    obj = {'query': user_text, 'bot_name': "Ramlalla Bot", 'bot_admin': 'ꜱᴀʜɪʟ'}  
+    obj = {'query': user_text, 'bot_name': "Bisal Filter Bot", 'bot_admin': 'ꜱᴀʜɪʟ'}  
     url = f"https://bisal-ai-api.vercel.app/biisal"
     async with aiohttp.ClientSession() as session:
         async with session.post(url, data=obj) as response:
@@ -50,7 +50,7 @@ async def ask_command_handler(bot, message):
         return await message.reply_text(
             text=f"<b>Hey {message.from_user.mention()}, Come to Support Group To Use This Feature 😏</b>",
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("Group 👀", url=https://t.me/Ind_supportgp)]]), )
+                [[InlineKeyboardButton("Group 👀", url=GRP_LNK)]]), )
     elif coolDownUser in user_cooldowns and current_time - user_cooldowns[coolDownUser] < 20:
         remaining_time = int(20 - (current_time - user_cooldowns[coolDownUser]))
         remTimeMsg = await message.reply_text(

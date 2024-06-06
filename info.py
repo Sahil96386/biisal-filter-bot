@@ -101,7 +101,7 @@ VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', ''))
 NEW_USER_LOG = int(environ.get('NEW_USER_LOG', ''))
 BIN_CHNL = int(environ.get('BIN_CHNL', ''))
 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Ind_supportgp')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Ind_supportgp')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
